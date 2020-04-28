@@ -1,0 +1,30 @@
+nav {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  margin: 0rem auto;
+}
+
+.nav-title {
+  width: 86vw;
+  font-size: 2.3rem;
+  letter-spacing: 6px;
+  background: lightyellow;
+  color: brown;
+  text-shadow: 1px 1px black;
+  padding: 0.1rem;
+  border: 1px dotted burlywood;
+  border-top: none;
+}
+
+.nav-img {
+  width: 10%;
+  margin-top: 0.5rem;
+}
+
+.icon {
+  width: 3%;
+  transform: translateY(0.4rem);
+}
+

@@ -1,0 +1,43 @@
+.dog-list {
+  width: 90vw;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.dogs {
+  margin: 0.2rem auto;
+}
+
+.dog {
+  width: 200px;
+  height: 200px;
+  border-top: 4px solid burlywood;
+  margin: 0 auto;
+}
+
+.btn {
+  margin: 0 auto;
+  width: 200px;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  border: 1px dotted burlywood;
+  background: lightyellow;
+  cursor: pointer;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.img {
+  width: 10%;
+  opacity: 0.6;
+  color: brown;
+  transform: translateY(0.1rem);
+}
