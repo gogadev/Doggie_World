@@ -24,7 +24,6 @@ class App extends Component {
     axios
       .get("https://dog.ceo/api/breeds/image/random/10")
       .then((res) => {
-        console.log(res);
         this.setState({ dogs: res.data.message });
       })
       .catch((err) => {
